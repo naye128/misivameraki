@@ -1,0 +1,52 @@
+.navbar{
+    box-shadow: 1px 1px 5px #B2B2B2;
+    
+}
+
+.navbar .nav-item .nav-link{
+    padding-left: 25px;
+    color: #B2B2B2;
+}
+
+.navbar .nav-item .nav-link:hover{
+    color: #410099;
+}
+
+.btn-ttc{
+    color:#410099;
+    border-color: #410099;
+}
+.btn-ttc:hover{
+    color: white;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #410099;
+}
+
+
+#conocenos{
+    background: #00C1DE;
+    padding: 50px 0 30px 0;
+    text-align: center;
+    margin-top: 40px;
+    color: #ffffff;
+}
+
+#servicios .card{
+
+    background: #00C1DE;
+    margin: 0px 10px;
+    transition: 1s;
+    color: #ffffff;
+
+}
+#servicios .card:hover{
+    transform: scale(1.1);
+    background: #410099;
+    z-index: 2;
+    box-shadow: 2px 2px 2px #000;
+    
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
